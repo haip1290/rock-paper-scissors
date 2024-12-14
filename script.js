@@ -1,6 +1,3 @@
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
 
 
 
@@ -20,4 +17,9 @@ function getComputerChoice(){
         default:
             console.error("Invalid choice");
     }
+}
+
+function getHumanChoice(){
+    let choice = prompt("Enter rock, paper, or scissors: ");
+    return choice;
 }
